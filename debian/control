@@ -23,3 +23,14 @@ Description: Qt4 client for the Music Player Daemon (MPD)
  run on the same machine as the server.
  .
  The Music Player Daemon resides in the mpd package.
+
+Package: qmpdclient-snapshot
+Architecture: all
+Section: utils
+Depends: qmpdclient (= ${source:Version}), ${misc:Depends}
+Suggests: rzr
+Priority: extra
+Description: unreleased snapshot version
+ TODO: Remove on issue and upgrade qmpdclient
+ http://rzr.online.fr/q/snapshot#qmpdclient Feedback welcome
+

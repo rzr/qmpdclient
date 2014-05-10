@@ -8,4 +8,5 @@ export DEB_LDFLAGS_MAINT_APPEND=-Wl,--as-needed
 
 override_dh_auto_install:
 	dh_auto_install --parallel
-	cp debian/qmpdclient-64.png debian/qmpdclient/usr/share/icons/hicolor/64x64/apps/qmpdclient.png
+	install -d debian/qmpdclient/usr/share/icons/hicolor/64x64/apps
+	install debian/qmpdclient-64.png debian/qmpdclient/usr/share/icons/hicolor/64x64/apps/qmpdclient.png

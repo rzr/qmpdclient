@@ -1,3 +1,21 @@
+qmpdclient (0.0.20130519-0~rzr20140510) unstable; urgency=medium
+
+  * wip: http://rzr.online.fr/q/snapshot#qmpdclient
+
+ -- Philippe Coval <rzr@gna.org>  Sat, 10 May 2014 19:05:21 +0200
+
+qmpdclient (0.0.20140510-0~rzr) unstable; urgency=medium
+
+  * WIP: http://rzr.online.fr/q/snapshot#qmpdclient
+
+ -- Philippe Coval <rzr@gna.org>  Sat, 10 May 2014 19:05:04 +0200
+
+qmpdclient (0.0.0-0) UNRELEASED; urgency=medium
+
+  * wip: http://rzr.online.fr/q/snapshot#qmpdclient
+
+ -- Philippe Coval <rzr@gna.org>  Sat, 10 May 2014 19:05:04 +0200
+
 qmpdclient (1.2.2-2) unstable; urgency=low
 
   * Fix fr_FR translation, patch by Cédric Boutillier (Closes: #640505)
