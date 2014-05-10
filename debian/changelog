@@ -1,0 +1,19 @@
+qmpdclient (1.2.2-2) unstable; urgency=low
+
+  * Fix fr_FR translation, patch by Cédric Boutillier (Closes: #640505)
+  * Fix "Files: *" paragraph in debian/copyright
+  * Switch to debhelper level 9
+  * Enable all hardening options
+  * Fix the 64x64 icon dimensions
+  * Add a manpage
+  * Bump Standards-Version: to 3.9.3 (no change needed)
+  * Update the copyright format URL
+  * Update copyright years
+
+ -- Andrey Rahmatullin <wrar@wrar.name>  Fri, 15 Jun 2012 22:00:35 +0600
+
+qmpdclient (1.2.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #510260)
+
+ -- Andrey Rahmatullin <wrar@wrar.name>  Wed, 24 Aug 2011 16:44:57 +0600

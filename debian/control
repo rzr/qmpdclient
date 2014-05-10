@@ -1,0 +1,25 @@
+Source: qmpdclient
+Section: sound
+Priority: optional
+Maintainer: mpd maintainers <pkg-mpd-maintainers@lists.alioth.debian.org>
+Uploaders: Andrey Rahmatullin <wrar@wrar.name>
+Build-Depends: debhelper (>= 9), cmake, libqt4-dev, libx11-dev
+Standards-Version: 3.9.3
+Homepage: http://bitcheese.net/wiki/QMPDClient
+Vcs-Git: git://git.debian.org/pkg-mpd/qmpdclient.git
+Vcs-Browser: http://git.debian.org/?p=pkg-mpd/qmpdclient.git;a=summary
+
+Package: qmpdclient
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: mpd-client
+Description: Qt4 client for the Music Player Daemon (MPD)
+ QMPDClient is a GUI client for MPD with Qt4 interface and such features as
+ covers display, skins, tray notifications and last.fm track submission.
+ .
+ MPD (Music Player Daemon) is a server that allows remote access for
+ playing audio files, streams and managing playlists. It can be used together
+ with different clients, including this one, and clients are not required to be
+ run on the same machine as the server.
+ .
+ The Music Player Daemon resides in the mpd package.
