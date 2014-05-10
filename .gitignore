@@ -10,3 +10,7 @@
 /lang/*.qm
 build
 /CMakeLists.txt.user
+*~
+debian/*.log
+debian/*.substvars
+debian/files
