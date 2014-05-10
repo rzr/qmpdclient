@@ -1,37 +1,5 @@
-qmpdclient (0.0.20130519-0~rzr20140510) unstable; urgency=medium
+qmpdclient (0.0.20130519-1) unstable; urgency=low
 
-  * wip: http://rzr.online.fr/q/snapshot#qmpdclient
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- Philippe Coval <rzr@gna.org>  Sat, 10 May 2014 19:05:21 +0200
-
-qmpdclient (0.0.20140510-0~rzr) unstable; urgency=medium
-
-  * WIP: http://rzr.online.fr/q/snapshot#qmpdclient
-
- -- Philippe Coval <rzr@gna.org>  Sat, 10 May 2014 19:05:04 +0200
-
-qmpdclient (0.0.0-0) UNRELEASED; urgency=medium
-
-  * wip: http://rzr.online.fr/q/snapshot#qmpdclient
-
- -- Philippe Coval <rzr@gna.org>  Sat, 10 May 2014 19:05:04 +0200
-
-qmpdclient (1.2.2-2) unstable; urgency=low
-
-  * Fix fr_FR translation, patch by Cédric Boutillier (Closes: #640505)
-  * Fix "Files: *" paragraph in debian/copyright
-  * Switch to debhelper level 9
-  * Enable all hardening options
-  * Fix the 64x64 icon dimensions
-  * Add a manpage
-  * Bump Standards-Version: to 3.9.3 (no change needed)
-  * Update the copyright format URL
-  * Update copyright years
-
- -- Andrey Rahmatullin <wrar@wrar.name>  Fri, 15 Jun 2012 22:00:35 +0600
-
-qmpdclient (1.2.2-1) unstable; urgency=low
-
-  * Initial release (Closes: #510260)
-
- -- Andrey Rahmatullin <wrar@wrar.name>  Wed, 24 Aug 2011 16:44:57 +0600
+ -- Philippe Coval <rzr@gna.org>  Sat, 10 May 2014 19:14:32 +0200
